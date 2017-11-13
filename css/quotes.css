@@ -3,34 +3,35 @@
 */
 #display {
   position: absolute;
-  top: 150px;
+  top: 4vw;
   left: 20vw;
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 30px;
   /*padding-right: 50px;
   padding-left: 50px;*/
-  /*border: 2px solid red;*/
+  /*border: 2px solid red;/*SWITCH*/
 }
 
 #display h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 blockquote {
   text-align: center;
-  font-size: 40px;
-  padding: 30px;
-  /*background-color: lightyellow;*/
+  font-size: 3vw;
+  padding: 30px 30px 20px 30px;
+  /*border: 1px solid blue;*/
+  /*background-color: lightyellow; /*SWITCH*/
 }
 
 #quote {
-  height: 300px;
+  min-height: 4.5vw;
   background-color: lightyellow;
   box-shadow: 5px 5px 3px #999;
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 50px;
   border-radius: 20px;
 }
@@ -42,13 +43,14 @@ blockquote {
 #cite {
   text-align: right;
   padding-right: 10vw;
+  /*border: 1px solid;*/
 
 }
 
 #new_quote {
   float: right;
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
 }
 
 button {
@@ -59,4 +61,17 @@ button {
 
 button:hover, i:hover {
   cursor: pointer;
+}
+
+#buttons {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 40vw;
+  /*border: 2px solid red;/*SWITCH*/
+}
+
+a {
+  padding-left: 30px;
 }

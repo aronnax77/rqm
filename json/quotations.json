@@ -1,5 +1,4 @@
-[
-    { "quote": "I always wanted to be somebody, but now I realize I should have been more specific.",
+[   { "quote": "I always wanted to be somebody, but now I realize I should have been more specific.",
       "attribution": "Lily Tomlin" },
     { "quote": "I find television very educational. Every time someone turns it on, I go in the other room and read a book.",
       "attribution": "Groucho Marx" },
@@ -43,7 +42,7 @@
       "attribution": "Henry Wadsworth Longfellow" },
     { "quote": "You cannot find peace by avoiding life.",
       "attribution": "Virginia Woolf" },
-    { "quote": "23. Never doubt that a small group of thoughtful committed citizens can change the world. Indeed it is the only thing that ever has.",
+    { "quote": "Never doubt that a small group of thoughtful committed citizens can change the world. Indeed it is the only thing that ever has.",
       "attribution": "Margaret Mead" },
     { "quote": "Where there is love there is life.",
       "attribution": "Mahatma Gandhi" },
@@ -96,5 +95,5 @@
     { "quote": "I like flaws. I think they make things interesting.",
       "attribution": "Sarah Dessen The Truth About Forever" },
     { "quote": "The more you know who you are and what you want the less you let things upset you.",
-      "attribution": "Stephanie Perkins Anna and the French Kiss" },
-];
+      "attribution": "Stephanie Perkins Anna and the French Kiss" }
+]
