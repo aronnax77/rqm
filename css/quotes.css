@@ -1,59 +1,77 @@
-/* Author: Richard Myatt
-   Date: 17 October 2017
-*/
-#display {
+/******************************************************************************
+TABLE OF CONTENTS
+
+AUTHOR            - Richard Myatt
+DATE              - 3 October 2017
+
+
+GENERAL STYLING                - main panel elements
+BUTTON AND ICON STYLING        - button and twitter icon
+
+
+COLOUR PALETTE
+
+lightyellow                    - background colour of quotation panel
+lightblue                      - button background colour
+darkblue                       - button text colour
+#999                           - mid grey block shadow for quotation panel
+#794bc4                        - purple twitter icon
+#ccc                           - grey active button/icon
+
+
+******************************************************************************/
+
+
+/******************************************************************************
+  General styling begins
+******************************************************************************/
+#displayBox {
   position: absolute;
-  top: 4vw;
+  top: 2vw;
   left: 20vw;
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 30px;
-  /*padding-right: 50px;
-  padding-left: 50px;*/
-  /*border: 2px solid red;/*SWITCH*/
 }
 
-#display h1 {
+#displayBox h1 {
   text-align: center;
+  font-family: 'Sofia';
   font-size: 3vw;
 }
 
 blockquote {
   text-align: center;
   font-size: 3vw;
-  padding: 30px 30px 20px 30px;
-  /*border: 1px solid blue;*/
-  /*background-color: lightyellow; /*SWITCH*/
+  padding: 2vw 2vw 20px 2vw;
 }
 
-#quote {
-  min-height: 4.5vw;
+#quotePanel {
+  min-height: 26vw;
   background-color: lightyellow;
   box-shadow: 5px 5px 3px #999;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 50px;
   border-radius: 20px;
+  border: 1px solid green;
 }
 
-#quote, h1 {
-  font-family: 'Sofia';
-}
-
-#cite {
+#attribution {
+  font-size: 1.5vw;
   text-align: right;
   padding-right: 10vw;
-  /*border: 1px solid;*/
-
 }
+/* General styling ends */
 
-#new_quote {
+
+/******************************************************************************
+  Button and icon styling
+******************************************************************************/
+button {
   float: right;
   width: 150px;
   height: 40px;
-}
-
-button {
   background-color: lightblue;
   color: darkblue;
   border-radius: 5px;
@@ -63,15 +81,28 @@ button:hover, i:hover {
   cursor: pointer;
 }
 
-#buttons {
+button:active {
+  background-color: #ccc;
+}
+
+a:active {
+  color: #ccc;
+}
+
+#buttonsPanel {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
   width: 40vw;
-  /*border: 2px solid red;/*SWITCH*/
 }
 
 a {
+  position: absolute;
+  font-size: 40px;
+  color: blue;
+  bottom: 90px;
+  left: 0;
   padding-left: 30px;
 }
+/* Button and icon styling ends */

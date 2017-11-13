@@ -1,3 +1,10 @@
+<!-- Design of a Random Quote Machine, an exercise set by freecodecamp.
+
+Author: Richard Myatt
+Date:   3 October 2017
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,28 +16,25 @@
 </head>
 <body>
 
-  <div id="display"> <!-- provide a display panel -->
+  <div id="displayBox"> <!-- provide a display panel -->
     <header>
       <h1>Random Quote Machine</h1>
     </header>
     <br><br>
     <section>
       <div> <!-- panel for all elements -->
-        <div id="quote">
+        <div id="quotePanel">
           <blockquote>"I always wanted to be somebody, but now I realize I should have been more specific."</blockquote>
-          <div id="cite">
+          <div id="attribution">
             <cite>Lily Tomlin</cite>
           </div>
           <a href="https://twitter.com/" target="_blank">
-            <i class="fa fa-twitter" style="font-size:36px;color:#777"></i>
+            <i class="fa fa-twitter twitter"></i>
           </a>
-
         </div>
-
       </div>
-      <div id="buttons">
-
-        <button id="new_quote" type="button">New Quote</button>
+      <div id="buttonsPanel">
+        <button type="button">New Quote</button>
       </div>
     </section>
   </div>

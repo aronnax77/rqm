@@ -1,5 +1,8 @@
-/* Author: Richard Myatt
-   Date: 17 October 2017
+/* Design of a Random Quote Machine, an exercise set by freecodecamp.
+
+Author: Richard Myatt
+Date:   3 October 2017
+
 */
 
 var quotations;
